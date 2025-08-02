@@ -6,7 +6,7 @@ const nextConfig = {
   output: 'export', // Enable static export for GitHub Pages
   trailingSlash: true, // Required for GitHub Pages
   basePath: process.env.NODE_ENV === 'production' ? '/dedat-digital-strategy' : '', // Replace with your repo name
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/dedat-digital-strategy/' : '', // Replace with your repo name
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/dedat-digital-strategy' : '', // Replace with your repo name
   experimental: {
     outputFileTracingRoot: path.join(__dirname, '../'),
   },
