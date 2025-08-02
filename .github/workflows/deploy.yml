@@ -44,6 +44,9 @@ jobs:
       - name: Export static
         run: npm run export
 
+      - name: Inspect export output (debug)
+        run: ls -R out | head -100
+
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
@@ -55,6 +58,7 @@ jobs:
     permissions:
       pages: write
       contents: read
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
