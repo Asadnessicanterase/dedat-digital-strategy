@@ -1,7 +1,7 @@
 
 # Western Cape Digital Leadership Strategy
 
-A modern, interactive web presentation of the Western Cape Digital Leadership Strategy for the Deputy Director position in the Department of Economic Development and Tourism (DEDAT).
+A modern, interactive web presentation of the Western Cape Digital Leadership Strategy for the Department of Economic Development and Tourism (DEDAT).
 
 ## 🎯 Features
 
